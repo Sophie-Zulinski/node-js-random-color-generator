@@ -10,17 +10,7 @@ const color = randomColor({
 function colorAndLog(str) {
   console.log(chalk.hex(color).bold(str));
 }
-// LONG VERSION
-// colorAndLog(“##############################“);
-// colorAndLog(“##############################“);
-// colorAndLog(“##############################“);
-// colorAndLog(“########              ########“);
-// colorAndLog(`########   ${color}    ########`);
-// colorAndLog(“########              ########“);
-// colorAndLog(“##############################“);
-// colorAndLog(“##############################“);
-// colorAndLog(“##############################“);
-// SHORT VERSION
+
 colorAndLog(`##############################
 ##############################
 ##############################
